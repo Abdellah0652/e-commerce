@@ -1,5 +1,5 @@
 {
-    "name": "ecommerce-targa",
+    "name": "e-commerce",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -41,7 +41,9 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "build": "react-scripts build",
-        "preinstall": "npx npm-force-resolutions"
+        "preinstall": "npx npm-force-resolutions",
+        "vercel-build": "NODE_OPTIONS=--max_old_space_size=4096 react-scripts build"
+
     },
     "eslintConfig": {
         "extends": ["react-app", "react-app/jest"]
