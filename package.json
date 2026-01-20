@@ -44,24 +44,20 @@
         "preinstall": "npx npm-force-resolutions"
     },
     "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
+        "extends": ["react-app", "react-app/jest"]
     },
     "resolutions": {
         "@types/react": "18.0.19"
     },
     "browserslist": {
         "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
+            ">0.2%", "not dead", "not op_mini all"
         ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+        "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    },
+
+    "engines": {
+        "node": "18.x"
+
     }
 }
